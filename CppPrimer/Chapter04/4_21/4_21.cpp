@@ -3,11 +3,10 @@
 using std::vector;
 using std::cout;
 using std::endl;
-int main( )
-{
+int main( ) {
     vector<int> v = {1, 2, 3, 4, 5, 6, 7, 8, 9, 10};
     for (auto &x : v) {
-        (x / 2 * 2 == x) ? (x=x): (x=x * 2);
+        (x / 2 * 2 == x) ? (x = x) : (x = x * 2);
         cout << x << ' ';
     }
     cout << endl;
