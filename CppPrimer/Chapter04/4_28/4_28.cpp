@@ -15,4 +15,5 @@ int main( ) {
     cout << "double: "<<sizeof(double) << endl;
     cout << "long double: "<<sizeof(long double) << endl;
     return 0;
+    
 }
