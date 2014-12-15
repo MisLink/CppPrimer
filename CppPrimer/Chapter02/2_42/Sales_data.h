@@ -1,4 +1,5 @@
 #ifndef SALES_DATA
+#define SALES_DATA
 #include<iostream>
 #include<string>
 struct Sales_data {
