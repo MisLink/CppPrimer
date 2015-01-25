@@ -16,4 +16,5 @@ int main( ) {
 
     //illegal
     //vector<NoDefault> vec_(10); 
+    return 0;
 }
