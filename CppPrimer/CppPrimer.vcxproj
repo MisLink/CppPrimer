@@ -11,7 +11,7 @@
     </ProjectConfiguration>
   </ItemGroup>
   <ItemGroup>
-    <ClCompile Include="Chapter09\9_51\9_51.cpp" />
+    <ClCompile Include="Chapter09\9_52\9_52.cpp" />
   </ItemGroup>
   <PropertyGroup Label="Globals">
     <ProjectGuid>{F11913C2-5F15-4D0E-BF4D-2AA4297456E2}</ProjectGuid>
