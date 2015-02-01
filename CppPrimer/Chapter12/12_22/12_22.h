@@ -50,7 +50,7 @@ std::string & StrBlob::back( ) {
 
 const std::string & StrBlob::front( ) const {
     check(0, "front on empty StrBlob");
-    return data->back( );
+    return data->front( );
 }
 
 const std::string & StrBlob::back( ) const {

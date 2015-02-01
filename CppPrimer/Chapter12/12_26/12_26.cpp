@@ -9,8 +9,10 @@ int main( ) {
     while(std::cin >> str) {
         alloc.construct(q++, str);
     }
-    while(p != q) {
-        std::cout << *(--q) << std::endl;
+    auto t = p;
+    while(t != q) {
+        std::cout << *t << std::endl;
+        t++;
     }
     alloc.deallocate(p, 5);
     return 0;
