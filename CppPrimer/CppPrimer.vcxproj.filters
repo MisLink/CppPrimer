@@ -15,8 +15,8 @@
     </Filter>
   </ItemGroup>
   <ItemGroup>
-    <ClCompile Include="Chapter13\13_22\13_22.cpp">
+    <ClInclude Include="Chapter13\13_39\13_39.h">
       <Filter>源文件</Filter>
-    </ClCompile>
+    </ClInclude>
   </ItemGroup>
 </Project>
