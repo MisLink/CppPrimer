@@ -1,5 +1,5 @@
 #ifndef INPUTSTRING
-//#define INPUTSTRING
+#define INPUTSTRING
 #include<string>
 #include<iostream>
 class InputString {

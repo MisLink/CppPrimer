@@ -1,4 +1,5 @@
 #ifndef REPLACE
+#define REPLACE
 #include<string>
 class compare {
 public:
