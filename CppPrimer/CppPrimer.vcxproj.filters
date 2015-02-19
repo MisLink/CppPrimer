@@ -15,25 +15,28 @@
     </Filter>
   </ItemGroup>
   <ItemGroup>
-    <ClCompile Include="Chapter15\15_39\Query.cpp">
-      <Filter>源文件</Filter>
-    </ClCompile>
-    <ClCompile Include="Chapter15\15_39\TextQuery.cpp">
-      <Filter>源文件</Filter>
-    </ClCompile>
-    <ClCompile Include="Chapter15\15_39\main.cpp">
-      <Filter>源文件</Filter>
-    </ClCompile>
+    <ClInclude Include="Chapter15\15_11\15_05_Bulk_quote.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="Chapter15\15_11\15_05_Quote.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="Chapter15\15_11\15_07_Limit_quote.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
   </ItemGroup>
   <ItemGroup>
-    <ClInclude Include="Chapter15\15_39\TextQuery.h">
+    <ClCompile Include="Chapter15\15_11\15_11.cpp">
       <Filter>头文件</Filter>
-    </ClInclude>
-    <ClInclude Include="Chapter15\15_39\QueryResult.h">
+    </ClCompile>
+    <ClCompile Include="Chapter15\15_11\Bulk_quote.cpp">
       <Filter>头文件</Filter>
-    </ClInclude>
-    <ClInclude Include="Chapter15\15_39\Query.h">
+    </ClCompile>
+    <ClCompile Include="Chapter15\15_11\Limit_quote.cpp">
       <Filter>头文件</Filter>
-    </ClInclude>
+    </ClCompile>
+    <ClCompile Include="Chapter15\15_11\Quote.cpp">
+      <Filter>头文件</Filter>
+    </ClCompile>
   </ItemGroup>
 </Project>
