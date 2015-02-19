@@ -64,8 +64,7 @@ private:
 
 class BinaryQuery : public Query_base {
 protected:
-    BinaryQuery(const Query &l, const Query &r, std::string s) :
-        lhs(l), rhs(r), opSym(s) { }
+    BinaryQuery(const Query &l, const Query &r, std::string s) :lhs(l), rhs(r), opSym(s) { }
 
     std::string rep( ) const {
         return "(" + lhs.rep( ) + " " + opSym + " " + rhs.rep( ) + ")";
@@ -78,8 +77,7 @@ protected:
 class AndQuery : public BinaryQuery {
     friend Query operator&(const Query&, const Query&);
 private:
-    AndQuery(const Query &left, const Query &right) :
-        BinaryQuery(left, right, "&") { }
+    AndQuery(const Query &left, const Query &right) : BinaryQuery(left, right, "&") { }
 
     QueryResult eval(const TextQuery&) const;
 };
@@ -87,8 +85,7 @@ private:
 class OrQuery : public BinaryQuery {
     friend Query operator|(const Query&, const Query&);
 private:
-    OrQuery(const Query &left, const Query &right) :
-        BinaryQuery(left, right, "|") { }
+    OrQuery(const Query &left, const Query &right) : BinaryQuery(left, right, "|") { }
 
     QueryResult eval(const TextQuery&) const;
 };

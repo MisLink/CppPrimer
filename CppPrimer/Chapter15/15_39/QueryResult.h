@@ -1,5 +1,5 @@
 #ifndef QUERYRESULT_H
-//#define QUERYRESULT_H
+#define QUERYRESULT_H
 #include <memory>
 #include <string>
 #include <vector>
@@ -24,12 +24,10 @@ private:
 };
 
 inline std::ostream & operator<<(std::ostream &os, QueryResult &qr) {
-    os << qr.sought << " occurs " << qr.lines->size( ) << " "
-        << (qr.lines->size( ) == 1 ? "time" : "times") << std::endl;
-    for(auto num = qr.lines->begin( );
-        num != qr.lines->end( ); ++num)
-        os << "\t(line " << *num + 1 << ") "
-        << *(qr.file->begin( ) + *num) << std::endl;
+    os << qr.sought << " occurs " << qr.lines->size( ) << " " << (qr.lines->size( ) == 1 ? "time" : "times") << std::endl;
+    for(auto &num : *qr.lines) {
+        os << "\t(line " << num + 1 << ") " << *(qr.file->begin( ) + num) << std::endl;
+    }
     return os;
 }
 
