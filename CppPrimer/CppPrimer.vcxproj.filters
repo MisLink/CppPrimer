@@ -14,29 +14,4 @@
       <Extensions>rc;ico;cur;bmp;dlg;rc2;rct;bin;rgs;gif;jpg;jpeg;jpe;resx;tiff;tif;png;wav;mfcribbon-ms</Extensions>
     </Filter>
   </ItemGroup>
-  <ItemGroup>
-    <ClInclude Include="Chapter15\15_11\15_05_Bulk_quote.h">
-      <Filter>头文件</Filter>
-    </ClInclude>
-    <ClInclude Include="Chapter15\15_11\15_05_Quote.h">
-      <Filter>头文件</Filter>
-    </ClInclude>
-    <ClInclude Include="Chapter15\15_11\15_07_Limit_quote.h">
-      <Filter>头文件</Filter>
-    </ClInclude>
-  </ItemGroup>
-  <ItemGroup>
-    <ClCompile Include="Chapter15\15_11\15_11.cpp">
-      <Filter>头文件</Filter>
-    </ClCompile>
-    <ClCompile Include="Chapter15\15_11\Bulk_quote.cpp">
-      <Filter>头文件</Filter>
-    </ClCompile>
-    <ClCompile Include="Chapter15\15_11\Limit_quote.cpp">
-      <Filter>头文件</Filter>
-    </ClCompile>
-    <ClCompile Include="Chapter15\15_11\Quote.cpp">
-      <Filter>头文件</Filter>
-    </ClCompile>
-  </ItemGroup>
 </Project>

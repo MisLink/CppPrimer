@@ -10,17 +10,6 @@
       <Platform>Win32</Platform>
     </ProjectConfiguration>
   </ItemGroup>
-  <ItemGroup>
-    <ClInclude Include="Chapter15\15_11\15_05_Bulk_quote.h" />
-    <ClInclude Include="Chapter15\15_11\15_05_Quote.h" />
-    <ClInclude Include="Chapter15\15_11\15_07_Limit_quote.h" />
-  </ItemGroup>
-  <ItemGroup>
-    <ClCompile Include="Chapter15\15_11\15_11.cpp" />
-    <ClCompile Include="Chapter15\15_11\Bulk_quote.cpp" />
-    <ClCompile Include="Chapter15\15_11\Limit_quote.cpp" />
-    <ClCompile Include="Chapter15\15_11\Quote.cpp" />
-  </ItemGroup>
   <PropertyGroup Label="Globals">
     <ProjectGuid>{F11913C2-5F15-4D0E-BF4D-2AA4297456E2}</ProjectGuid>
     <Keyword>Win32Proj</Keyword>
