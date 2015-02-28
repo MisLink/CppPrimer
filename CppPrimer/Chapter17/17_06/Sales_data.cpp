@@ -1,4 +1,4 @@
-#include"14_45_Sales_data.h"
+#include"Sales_data.h"
 #include<string>
 using std::istream;
 using std::ostream;
